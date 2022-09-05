@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+h1{
+    font-size: 6em;
+    padding-left: 8vw;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 200;
+    word-spacing: -0.5;
+    line-height: 1.5;
+    padding-right: 8vw;
+    padding-bottom: 1.6vw;
+
+}
+a{
+    color: white;
+    font-size: 2.2vh;
+    font-weight: 200;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+footer{
+    justify-content: space-around;
+    padding: 2vw 0;
+}
+.meta{
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 1vw;
+    top: 4vw;
+    font-size: 2.2vh;
+    position: fixed;
+    z-index: 1;
+    word-spacing: 5px;
+    letter-spacing: 1;
+}
+.meta span{
+    transform: rotate(-90deg);
+    font-size: 3vw;
+}
+section{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+
+
+}
